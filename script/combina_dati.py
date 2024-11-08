@@ -24,7 +24,9 @@ for commit in commit_data:
         if contains_keywords(commit['message']):
             conf_syn += 1
 
-        if re.match(r'^\s*#?[0-9]+\s*$', commit['message']):
+        if str(bug['number']) == commit['message'] or \
+            commit['message'] == "#" + str(bug['number']) or \
+            commit['message'] == "(#" + str(bug['number']) + ")":
             conf_syn += 1
 
         
