@@ -1,0 +1,42 @@
+[
+  {
+    "file": "src/core/vdom/patch.js",
+    "count": 68
+  },
+  {
+    "file": "src/compiler/parser/index.js",
+    "count": 68
+  },
+  {
+    "file": "src/compiler/codegen/index.js",
+    "count": 60
+  },
+  {
+    "file": "test/unit/modules/compiler/codegen.spec.js",
+    "count": 52
+  },
+  {
+    "file": "README.md",
+    "count": 47
+  },
+  {
+    "file": "src/core/instance/render.js",
+    "count": 46
+  },
+  {
+    "file": "package.json",
+    "count": 45
+  },
+  {
+    "file": "test/ssr/ssr-string.spec.js",
+    "count": 44
+  },
+  {
+    "file": "BACKERS.md",
+    "count": 43
+  },
+  {
+    "file": "types/vue.d.ts",
+    "count": 42
+  }
+]

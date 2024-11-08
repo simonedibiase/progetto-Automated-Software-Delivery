@@ -1,0 +1,3612 @@
+[
+  {
+    "number": 13104,
+    "title": "Vue 2.7 strictTemplates error",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 13052,
+    "title": "compiler-sfc not compatible with prettier v3",
+    "labels": [
+      "bug",
+      "improvement",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 12901,
+    "title": "bind style merge not as expected",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 12703,
+    "title": "Watchers depending on current route re-evaluated after unmount",
+    "labels": [
+      "bug",
+      "2.7"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 12685,
+    "title": "kabab-case component doesn't work when I typed same name but camelcase ref.",
+    "labels": [
+      "bug",
+      "feat:compiler",
+      "2.7"
+    ],
+    "assignee": "edison1105",
+    "state": "closed"
+  },
+  {
+    "number": 12636,
+    "title": "Vue 2.7: injection \"Symbol(pinia)\" not found",
+    "labels": [
+      "bug",
+      "2.7"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 12561,
+    "title": "props is not reactive in 2.7.0-beta.2",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 12319,
+    "title": ".exact modifier : Failed to generate render function",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "has PR",
+      "feat:compiler"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 12232,
+    "title": "New slot syntax doesn't work the same way as old syntax (in some cases)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 12223,
+    "title": "v-if not patching component scoped slot correctly",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11984,
+    "title": "<v-show>  style.display is incorrect when reusing the elm",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11925,
+    "title": "`.once` modifier on input event prevents v-model from updating value on input element.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11837,
+    "title": "SSR: missing class and style attributes with async components",
+    "labels": [
+      "bug",
+      "has workaround",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11771,
+    "title": "Strange ssr behavior in v-for loop with if-else and v-text",
+    "labels": [
+      "bug",
+      "has workaround",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11714,
+    "title": "$scopedSlots is empty until render()",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11713,
+    "title": "Computed fields for named slots stop working if I add watchers to them",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 11652,
+    "title": "slot is reused with v-if/v-else",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 11575,
+    "title": "Unknown custom element: <foreignObject>",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 11569,
+    "title": "Safari doesn't see frame inside vue app",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11533,
+    "title": "Vue SSR v-html on dynamic-component hydration warning",
+    "labels": [
+      "bug",
+      "has workaround",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11446,
+    "title": "Line breaks in textarea are excessively removed.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11315,
+    "title": "Components slots are not rendered inside svg foreignObject",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11299,
+    "title": "SSR fails to render component inside v-else of a v-if with v-html",
+    "labels": [
+      "bug",
+      "has workaround",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11297,
+    "title": "vue-server-renderer: inheritAttrs false doesn't work properly",
+    "labels": [
+      "bug",
+      "has workaround",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 11248,
+    "title": "\"refInFor\" searches upwards of inline-template boundary",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11171,
+    "title": "Swapping from functional to non-functional component using v-if does not change v-data-* attribute.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11109,
+    "title": "Hydration fails when write like \"<div><span>123</span>{{value}}</div>\" in the template and the data \"value\" is a empty string",
+    "labels": [
+      "bug",
+      "has PR",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11084,
+    "title": "Slot wrapped in `v-if` disappears after re-render",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 11059,
+    "title": "With `whitespace:condense` all &nbsps;, even meaningful, are converted to spaces",
+    "labels": [
+      "bug",
+      "has PR",
+      "feat:compiler"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 11032,
+    "title": "the string constructor cannot be used as a `key`",
+    "labels": [
+      "bug",
+      "discussion"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10963,
+    "title": "Problem with v-bind:class in Microsoft Edge for components",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "browser quirks",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10906,
+    "title": "v-once on template not working inside a v-for in two cases",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10867,
+    "title": "Multiple arguments in custom event with a modifier are not passed to handler",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10843,
+    "title": "Unexpected comma in the function declaration",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10803,
+    "title": "SSR: textarea domProps keeps falsy values",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "has PR",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10733,
+    "title": "vue-server-renderer: directive not applied to imported component",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "feat:ssr"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10731,
+    "title": "transition-group has stutter when component updated elsewhere",
+    "labels": [
+      "bug",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10628,
+    "title": "Error compiling long string litteral  (many + on many lines)",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10614,
+    "title": "when <select> model and the option list changed at the same time, model may incorrectly set to `undefined`",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10547,
+    "title": "Infinite loop in vue-template-compiler",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10524,
+    "title": "Rendering async loaded component is causing attrs change.",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10519,
+    "title": "prop validator fails to generate validation error message when using Symbols",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10485,
+    "title": "With `whitespace: 'condense'`, elements contain only &nbsp; and spaces are condensed into empty tags",
+    "labels": [
+      "bug",
+      "has PR",
+      "feat:compiler"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10480,
+    "title": "VueComponent instances retained after calling vm.$destroy",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10455,
+    "title": "Data properties not found and/or incorrectly typed in TypeScript 3.6.2",
+    "labels": [
+      "bug",
+      "typescript"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10416,
+    "title": "Scoped CSS attribute is reused or discarded when switching between components with scoped CSS",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10391,
+    "title": "Nested async components passed as slots are not rendered in SSR",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10330,
+    "title": "nested v-slot is not reactive when using abbreviated syntax (v-slot on component itself) combined with an v-if/v-else",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10271,
+    "title": "dynamic v-slot maybe overwite when used together with v-for on same element",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10260,
+    "title": "v-bind not update dom in client side when data in client side is different from the server side",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10224,
+    "title": "Default slot content should not be evaluated when the parent is providing it",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10152,
+    "title": "Scoped Slot warns when used inside of dynamic component on regular element",
+    "labels": [
+      "bug",
+      "contribution welcome",
+      "good first issue",
+      "has PR",
+      "warnings"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10087,
+    "title": "Attributes listed under isBooleanAttr are altered under v-pre attributed tags",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10083,
+    "title": "bug about keep-alive and @click.native caused repeated attach event handler?",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 10029,
+    "title": "Triggering a listener of a functional component breaks reactivity in Safari 12.1, if iframe is on the page",
+    "labels": [
+      "bug",
+      "browser quirks",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 10004,
+    "title": "Memory leak with component with input with v-model",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9972,
+    "title": "<keep-alive> doesn't `destroy` cached components after when max is 1",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9920,
+    "title": "build project with 'vue-cli 2', if some function named 'functionClickHandle' and bind with '@click=\"functionClickHandle()\"', It will run automatically.",
+    "labels": [
+      "bug",
+      "regression",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9876,
+    "title": "Custom directive binds differs on components vs elements",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 9842,
+    "title": "Memory leak when using \"transition\" and \"keep-alive\"",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9781,
+    "title": "Error using multiple dynamic slot names (Invalid dynamic argument expression)",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9711,
+    "title": "Default scoped slot is not present under data.scopedSlots object in functional component",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9707,
+    "title": " Different behaviors of  Arrow function and function ",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9699,
+    "title": "Slot props in render function is not sync",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9698,
+    "title": "Runtime exception: performance is not defined - with v2.6.9",
+    "labels": [
+      "bug",
+      "improvement",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9644,
+    "title": "default slots without the new template syntax  wont reevaluate v-if",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9641,
+    "title": "camelCased props bound through an object take precedence over a kebab cased specific prop",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9628,
+    "title": "Transition component animates when wrapper is replaced",
+    "labels": [
+      "bug",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9616,
+    "title": "types: NormalizedScopedSlot for scopedSlots on RenderContext?",
+    "labels": [
+      "bug",
+      "typescript"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9577,
+    "title": "Deep object as dynamic argument in custom directive [RFC-0003]",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9571,
+    "title": "Components created with async component factory break on route change",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9511,
+    "title": "Vue.config.errorHandler called twice when I return a rejected Promise from a handler of a component event",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9506,
+    "title": "Value inside v-slot in a v-for won't update",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9417,
+    "title": "v-on dynamic argument doesn't work with .native modifier",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9396,
+    "title": "[2.6-beta] regression: component without slots re-renders when parent updates",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9383,
+    "title": "In IE 11 the first input event on a text input is blocked if placeholder is set and the model is initialised",
+    "labels": [
+      "bug",
+      "browser quirks"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9382,
+    "title": "vbind:style does not work with zIndex",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9364,
+    "title": "Transition not triggering @appear when used as the root of a component with appear attr",
+    "labels": [
+      "bug",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9330,
+    "title": "v-model's value not in $attrs if value not defined as a prop",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9320,
+    "title": "Transition's @appear hook invoked even when appear not specified / falsy",
+    "labels": [
+      "bug",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 9255,
+    "title": "class binding not updating on client after using `$isServer` with boolean values",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9234,
+    "title": "Transition is erroneously run when placed with bizarre sequence of sibling elements. ",
+    "labels": [
+      "bug",
+      "has workaround",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 9231,
+    "title": "SSR: style binding keeps falsy values",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9213,
+    "title": "Provided values in mixin are not accessible",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 9198,
+    "title": "Vue does not correctly dedupe global mixin, global mixined lifecycle hook be called twice",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8977,
+    "title": "Computed property don't receive component's instance as first argument in SSR",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8973,
+    "title": "Both move and leave triggered for removed transition-group item if transition-group has display: flex",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8961,
+    "title": "vue-server-renderer: camelCased local directives are not applied in SSR",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8950,
+    "title": "Vue template removes whitespace immediately after <input>inside of a pre",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8895,
+    "title": "Non-breaking space acts different than other characters - outputs \"&nbsp;\" in template when passed via props",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 8842,
+    "title": "Overriding a binded prop with hypenated syntax instead of camelCase not working",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8831,
+    "title": "Using multiple selects with v-model and bound and unbound values causes value overriding",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 8740,
+    "title": "Memory Leak When Using Async Components",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8567,
+    "title": "Immediate watcher skips parent(s) errorCaptured and jumps straight to the top error handler",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8545,
+    "title": "Maximum call stack size exceeded in SSR with a v-for with 1000 components",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8468,
+    "title": "Functional components with multiple roots don't render properly when used with v-for",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8346,
+    "title": "v-model.lazy is not updating the value of an input when it has a focus",
+    "labels": [
+      "bug",
+      "nextTick related",
+      "has workaround"
+    ],
+    "assignee": "haoqunjiang",
+    "state": "closed"
+  },
+  {
+    "number": 8293,
+    "title": "Component is destroyed and then mounted",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": "haoqunjiang",
+    "state": "closed"
+  },
+  {
+    "number": 8286,
+    "title": "v-pre is still parsing/compiling custom components",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": "haoqunjiang",
+    "state": "closed"
+  },
+  {
+    "number": 8199,
+    "title": "\"Cannot read property '_pending' of null\" when using transition component.",
+    "labels": [
+      "bug",
+      "has PR",
+      "has workaround",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8103,
+    "title": "Vue.js mustach not correctly rendered only after indenting root element",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8101,
+    "title": "Functional component fails depending on the siblings around it",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8076,
+    "title": "component calls update hook after it is destroyed",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": "haoqunjiang",
+    "state": "closed"
+  },
+  {
+    "number": 8032,
+    "title": "bound event with once gets reused in v-if/else condition",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 8021,
+    "title": "v-once for component tag doesn't work in v-for",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 7982,
+    "title": "Compilation of mustaches in mustaches expression doesn't work",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7975,
+    "title": "prop of component, in conditionally rendered slot, stops being reactive",
+    "labels": [
+      "bug",
+      "regression",
+      "has PR",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7913,
+    "title": "Unexpected \"duplicate presence of slot\"",
+    "labels": [
+      "bug",
+      "has PR"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7879,
+    "title": "<transition-group> and v-show triggers move transition on enter",
+    "labels": [
+      "bug",
+      "has PR",
+      "transition"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 7817,
+    "title": "Named slot won't render",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7759,
+    "title": "Transition class `leave-to` not removed if hidden element changes too fast with v-show",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7756,
+    "title": "When adding and removing style rules like `background`, sub rules (`background-color`) are not re applied",
+    "labels": [
+      "bug",
+      "wontfix"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7669,
+    "title": "Assign :ref to zero result in missing element in $refs",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7579,
+    "title": "Listeners are not updated correctly on component reuse",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7573,
+    "title": "Pitfalls of Vue dependency detection may cause redundant dependencies",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7566,
+    "title": "keep-alive doesn't call  $destroy if view is actived",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7544,
+    "title": "filter with empty arguments cause error in chrome 57-",
+    "labels": [
+      "bug",
+      "improvement"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 7531,
+    "title": "layout calculations in beforeEnter hook will cancel entering animation for transition elements",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7390,
+    "title": "Cancelled transitions on v-show still add the enterToClass or leaveToClass",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": "Akryum",
+    "state": "closed"
+  },
+  {
+    "number": 7330,
+    "title": "svg中foreignObject元素内的svg内部子元素不显示",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7294,
+    "title": "custom event emit by the v-if component yet trigger the v-else component listener",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7282,
+    "title": "Vue does not accept undefined values when returning an array in functional component ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7223,
+    "title": "vue-template-compiler double-escaping newlines in _ssrNode text string templates",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7191,
+    "title": "data method not called with `this` as argument when using mixins with data option",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7105,
+    "title": "keep-alive with include property resulting prop data do not pass down to component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 7063,
+    "title": "SSR - mismatched styles are not updated in the DOM unless the element has a ref",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6997,
+    "title": "Conditionally changing the order of slots works incorrectly in --env=production mode of Vue.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6996,
+    "title": "Passing component to grandchildren's nested named slot will resolve in the default slot.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6986,
+    "title": "v-model with select and text area issue vue-server-render",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6980,
+    "title": "Conflict between v-once and ref",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6945,
+    "title": "`vm.$off` not working when passing an array as first argument",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6938,
+    "title": "keep-alive include will also cache anonymous components",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6929,
+    "title": "<input> rerenders while changes affects only sibling elements",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": null,
+    "state": "open"
+  },
+  {
+    "number": 6918,
+    "title": "v-if / v-else not working with :type + v-model",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6915,
+    "title": "Grandchild component disappears after parent re-renders.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6908,
+    "title": "Computed property setter on component other than \"this\" not called when updating v-model",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6907,
+    "title": "SSR issue with dynamic <input> type",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6903,
+    "title": "<select> doesn't select correct option after render",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6800,
+    "title": "Dynamic input type only works if the property is called type",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 6759,
+    "title": "memory leak with keep-alive",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6687,
+    "title": "Transitioning between components fails when component's root node has v-if=\"false\"",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6642,
+    "title": "Embed HTML into an HTML5 SVG fragment got wrong namespace in template",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6572,
+    "title": "Null values for `v-text` directive not handled in SSR",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6566,
+    "title": "@click would trigger event other vnode @click event.",
+    "labels": [
+      "bug",
+      "improvement"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6552,
+    "title": "@input.once preventing the update of the input if used with v-model",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6519,
+    "title": "Vue SSR fails with innerHTML",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6466,
+    "title": "IE11: Keystrokes missing if v-model is used",
+    "labels": [
+      "bug",
+      "improvement"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6455,
+    "title": "vm.$forceUpdate duplicates content when childs consist of a slot followed by text",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6436,
+    "title": "Inject/Provide not working in Vue.extend() class.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6372,
+    "title": "Component disappears on first re-render",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6345,
+    "title": "vue-server-renderer: &lt;hello will cause Server/Client DOM mismatch",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6263,
+    "title": "$attrs is undefined when component has no props",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6256,
+    "title": "out-in transition issue with async components in a <keep-alive> block",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6252,
+    "title": "dt and dd without end tags went to wrong.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6209,
+    "title": "select element can't be rendered correctly by vue 2.0.0 (or above) in IE 11",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6170,
+    "title": "Error compiling template, even though one root element",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6150,
+    "title": "HTML block comments & single quotes not parsed correctly",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6076,
+    "title": "Custom directive \"inserted\" hook doesn't fire when transition is used on binded element",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6069,
+    "title": "Strange behavior with input type=\"number\"",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6066,
+    "title": "`v-model` not working with `<select is=\"custom-select\">`",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 6006,
+    "title": "Transition group with dynamic name not correctly applying transition",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5992,
+    "title": "ssr unexpected hydration bailout with <pre> tag",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5975,
+    "title": "Memory leak in Vue.js server-side when using \"computed\"",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5941,
+    "title": "Cannot read property 'ssrContext' of undefined",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5902,
+    "title": "Inconsistent behavior of v-model sync during IME composition for <input type=\"search\">",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5888,
+    "title": "keep-alive component (or other abstract component) ignores slot name",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5837,
+    "title": "Provided props are not injected into functional components ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "Kingwl",
+    "state": "open"
+  },
+  {
+    "number": 5760,
+    "title": "out-in transition issue with async components ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5635,
+    "title": "Even after async components was resolved, a timeout occur",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 5618,
+    "title": "Elements unnecessarily re-created when an above v-for changes.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5615,
+    "title": "Dynamic slot name bound from v-for directive not working with scoped slots",
+    "labels": [
+      "bug",
+      "improvement"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5346,
+    "title": "Keep-Alive inside of transition not working with include",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5330,
+    "title": "mouse modifier @click.right not working",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5318,
+    "title": "view not update when use transition in this case",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5266,
+    "title": "Input type file is changed to text in Safari",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5239,
+    "title": "v-show doesn't not work for components on server-side rendering",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5223,
+    "title": "Provide isn't reactive with a single array",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5209,
+    "title": "Cannot register Vuex in created hooks with performance on.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5191,
+    "title": "no change triggered after reassigned state",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5120,
+    "title": "Using arrow function inside v-on with key modifiers doesn't wok",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5097,
+    "title": "Default value not shown for default slot when only named slot content provided",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5043,
+    "title": "Injecting falsy values",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 5002,
+    "title": "[v2.2.0-beta.1] v-model doesn't work when passed prop is named 'value'",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4985,
+    "title": "unexpected behaviour when using <transition> appear & mode attrib",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4976,
+    "title": "Late-injected options of constructors are dropped in resolveComponentOptions function",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4951,
+    "title": "Dynamic slot name not working with scoped slots",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4915,
+    "title": "Issue about father-component's scoped styles when child-components shows by v-if",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4900,
+    "title": "Transition-group transition on empty array",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4880,
+    "title": "Using < in custom delimiters yields wrong compiled template",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4872,
+    "title": "Server-side: Function type prop’s default function is undefined when rendering server-side",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4864,
+    "title": "<select v-model=\"arr\" v-bind:multiple=\"multiple\">",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 4846,
+    "title": ".once doesn't go well with .self",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4838,
+    "title": "Filter not recognized when filtered expression contains a '/' with ()",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4792,
+    "title": "Minor bug with Boolean props casting: undefined => false",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4779,
+    "title": "Scoped slot does not work with dynamic slot name",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4774,
+    "title": "`_scopeId` lost for child components with falsy v-if on root elements",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 4767,
+    "title": "Extend options should not be confused with the super options",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4758,
+    "title": "Parser fails on tags with one space inside a <pre> tag",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4755,
+    "title": "Bug with dynamic binding multiple for select tag.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4746,
+    "title": "v-on:change randomly fails on range input bound on a computed property",
+    "labels": [
+      "bug",
+      "has workaround"
+    ],
+    "assignee": "defcc",
+    "state": "open"
+  },
+  {
+    "number": 4702,
+    "title": "Custom Transition Component triggering ignoring done() inside leave hook",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4690,
+    "title": "关于checkbox 原生值的bug？",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4655,
+    "title": ".once modifier for v-on except for the last one doesn't work if more than one .once modifier used for v-on in multiple elements",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4650,
+    "title": "Events listeners are not unbound when reusing nodes",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4620,
+    "title": "Checkbox :checked is not fully reactive when checkbox is in focus",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4590,
+    "title": "Render error with keep-alive children.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4584,
+    "title": "TypeError when route-link with sibling slot used",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4535,
+    "title": "Exception thrown by Vue code during update with template involving v-if and css styles",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4533,
+    "title": "v-if / v-else causes client side hydration to bail",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4530,
+    "title": "v-if and  v-else Causing the button value to be cleared ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4521,
+    "title": "checkbox can not be selected if it's in a element with @click listener?",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4514,
+    "title": "sometime select's event does't work when option's vlaue in ('',0)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4484,
+    "title": "node with v-show inside v-if is reused in the adjacent v-else",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4432,
+    "title": "[2.x] v-bind not removing attributes with falsy values when another attribute with `.prop` modifier appears first",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4393,
+    "title": "Case when v-if v-else throws error and breaks app",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4392,
+    "title": "Input [v-model & type=number] is truncated when (unrelated) DOM update happens.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4346,
+    "title": "Template compilation error in style attribute with url",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4339,
+    "title": "JS Transition hooks bug with keep alive component ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4315,
+    "title": "Rerendering a functional component which renders a component with a slot",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4284,
+    "title": "Component root node changing is broken",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "HerringtonDarkholme",
+    "state": "closed"
+  },
+  {
+    "number": 4268,
+    "title": "Unicode \\u2028 character crashing vue",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4266,
+    "title": "2.0.8 vue-template-compiler breaks scoped css ",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "ktsn",
+    "state": "closed"
+  },
+  {
+    "number": 4237,
+    "title": "Props can get out of sync on dynamic components with keep-alive",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4227,
+    "title": "Patched elements keep inline styles from old vnodes",
+    "labels": [
+      "bug",
+      "discussion"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4209,
+    "title": "Use render function will be strange when `\\n` in slot template.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4143,
+    "title": "Using SSR with defined dynamic components, not rendered classes at tag (component)",
+    "labels": [
+      "bug",
+      "need repro"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4107,
+    "title": "Vue renders unexpected \"undefined\" when v-if condition changes",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4071,
+    "title": "Destroy or BeforeDestroy send to wrong component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4055,
+    "title": ":style on a custom component does not generate code using vue-server-renderer",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 4018,
+    "title": "Model .number modifier fails to cast selected value of select element.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 4012,
+    "title": "strange behavior when using conditional operator in text/x-templates",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3979,
+    "title": "Unable to watch nested data",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 3973,
+    "title": "\"<\" in pug doesn't work",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3964,
+    "title": "vue2.0.3 v-once doesn't work in list rendering?",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3958,
+    "title": "vue 2.0.3 v-model not updating using an array",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 3957,
+    "title": "Mixins: props are not correctly mixed in when registered globally",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3940,
+    "title": "allow 2 root nodes with v-if and v-else",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3935,
+    "title": "Strange DOM behaviour",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3917,
+    "title": "Multiple select elements @change event problem",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "defcc",
+    "state": "closed"
+  },
+  {
+    "number": 3913,
+    "title": "nested v-for bug",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3899,
+    "title": "entities encoding problem of SSR (IE9)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3883,
+    "title": "Array directly inside array does not get watched",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3882,
+    "title": "Lifecycle broken with nested keep-alive components",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3872,
+    "title": "How can a functional component be used as a named slot of another component?",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3852,
+    "title": "Chrome + Vue 2 = Multiple Select 1st item unwantedly selected when displayed",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3848,
+    "title": "Directives break when replacing an item in array using splice",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3824,
+    "title": "<template> unable to work, Cannot create property 'isStatic' on string ' '",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3821,
+    "title": "<select> bound with array performs incorrectly after splice()",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3819,
+    "title": "[bug] Vue2.0.0-rc.8 `v-if` AND 'slot'",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3730,
+    "title": "IOS10 微信页面滑动过程中产生tap事件，会导致Vue渲染不出来",
+    "labels": [
+      "bug",
+      "important"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3689,
+    "title": "[2.0] Internet Explorer select elements display first option by default",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3673,
+    "title": "Value binding with select options seems broken",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3668,
+    "title": "Vue throws error Missing required prop even if provided",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3667,
+    "title": "2.0.0-rc.6 breaks \"beforeRouteEnter\" hook",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3657,
+    "title": "[Vue 2.0] Issue with styles as array and reactivity",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3616,
+    "title": "DOM node replacement (with v-if) overlaps with the previous node",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3610,
+    "title": "defineReactive doesn't handle inherited properties",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3603,
+    "title": "v-model loses binding when used with dynamically bound type=\"radio\" on <input> (v-model 在input 动态指定type时失效。)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3573,
+    "title": "`leave` transition doesn't work if the element is shown by default",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3526,
+    "title": "No support for carriage return",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3518,
+    "title": "Function wiring breaks for components that show/hide slot content using v-if",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3516,
+    "title": "v-model with custom radio component replace onChange event",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3510,
+    "title": "Transition bug with keep-alive",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3506,
+    "title": "Nested transitions premature end",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3481,
+    "title": "Reference lost on leave transition hook",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3472,
+    "title": "option 'name' on component creation gives warning and doesn´t work",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3403,
+    "title": "v2.0.0-beta.3正常,用beta.4-7都没有生成内容",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3400,
+    "title": "[Vue 2.0]named slot disappear",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3383,
+    "title": "Transition inside forms crashing in Safari 9.1.1",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3382,
+    "title": "Merging of HTML classes via class attribute and v-bind broken",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3376,
+    "title": "Reusing childs in Render Functions error",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "yyx990803",
+    "state": "closed"
+  },
+  {
+    "number": 3354,
+    "title": "Transition on component root doesn't work with v-show",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "yyx990803",
+    "state": "closed"
+  },
+  {
+    "number": 3327,
+    "title": "2.0.0-beta4: static href attribute content is being escaped (& becomes &amp;)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3325,
+    "title": "DOM messed up after toggling v-if variable",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3324,
+    "title": "v-html: HTML stripped from inline string literals",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3323,
+    "title": "Interpolation fails on inline string containing HTML",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3306,
+    "title": "v-pre doesn't work inside textarea?",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3296,
+    "title": "[Vue warn]: Unknown custom element: <time> - did",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "LinusBorg",
+    "state": "closed"
+  },
+  {
+    "number": 3280,
+    "title": "Absolutely-positioned flexbox child component with transition is duplicated in DOM when visibility is toggled via v-if in Firefox",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3273,
+    "title": "Bad parsing when bound data contains a backtick",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3269,
+    "title": "keep-alive with the same component constructor",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3259,
+    "title": "Slot names flow all the way down the component tree",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3252,
+    "title": "Rendering problem with v-show, transition and v-model update.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3247,
+    "title": "Rendering problems with v-if in vue-2.0-beta.1",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3243,
+    "title": "Directive function syntax throws an error",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3219,
+    "title": "v2.0.0-alpha.8 `v-if` bug",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3210,
+    "title": "Parsing object as a filter argument fails with spaces inside",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": "zigomir",
+    "state": "closed"
+  },
+  {
+    "number": 3204,
+    "title": "$refs in loops are not in sync - the sub components instances do not get updated",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 3197,
+    "title": "SVG `image` tag is incorrectly converted to `img` unless inside `<svg>`",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 3184,
+    "title": "v-pre on textarea breaks sometimes",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": "simplesmiler",
+    "state": "closed"
+  },
+  {
+    "number": 3183,
+    "title": "Props validation fails (Vue warn) when component initialized with proper propsData",
+    "labels": [
+      "bug",
+      "contribution welcome"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 3179,
+    "title": "When using v-model on a component element, the `value` prop is always a String",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3176,
+    "title": "Vue.js v2.0.0-alpha.8 bug",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3157,
+    "title": "`appear: true` broken for global transitions",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "yyx990803",
+    "state": "closed"
+  },
+  {
+    "number": 3155,
+    "title": "[2.0] v-once and v-for don't seem to play nice together",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3140,
+    "title": "[Vue 2.0] text input with number modifier displays NaN value",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "kazupon",
+    "state": "closed"
+  },
+  {
+    "number": 3133,
+    "title": "Multiple vue instance bug",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "simplesmiler",
+    "state": "closed"
+  },
+  {
+    "number": 3079,
+    "title": "RangeError with form of method \"POST",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3078,
+    "title": "[2.0] Server-side rendering with v-text or v-html doesn't work well",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3062,
+    "title": "Multiline HTML interpolation fails on 1.0.24",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 3029,
+    "title": "v-model breaks selectionStart",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 3022,
+    "title": "array.$set removing item from the DOM",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2988,
+    "title": "[BUG] one time binding doesn't deal with null like value properly",
+    "labels": [
+      "bug",
+      "in progress"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2972,
+    "title": "Default v-transition class is not being removed after transition is updated",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 2888,
+    "title": "The \"json\" filter not support to use \"0\" as parameter",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 2852,
+    "title": "inDoc(node, win) failed due to mismatch protocol (https and chrome-extension)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2837,
+    "title": "template slot content disappears on subsequent visit",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2831,
+    "title": "Component ready() not firing for iframed vue instance",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2821,
+    "title": "Watcher in custom component is not fired when prop value is updated from another watcher",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2707,
+    "title": "\"literal\" modifier on custom directive causes v-if to be ignored",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "blake-newman",
+    "state": "closed"
+  },
+  {
+    "number": 2687,
+    "title": "Data function is called twice not once.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2670,
+    "title": "@event expression is not handled correctly",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2666,
+    "title": "is attribute still present in the DOM after compilation",
+    "labels": [
+      "bug",
+      "need repro"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2657,
+    "title": "template-tag, v-for, v-if together, not as expect",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "simplesmiler",
+    "state": "closed"
+  },
+  {
+    "number": 2639,
+    "title": "v-else not work when together with v-show on custom component",
+    "labels": [
+      "bug",
+      "discussion"
+    ],
+    "assignee": "posva",
+    "state": "closed"
+  },
+  {
+    "number": 2593,
+    "title": "Vue.config.devtools with no effect",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2592,
+    "title": "Problem with v-for + v-if in firefox",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2587,
+    "title": "Coerced props returning objects are not reactive",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2537,
+    "title": "Error: nextSibling of null",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2426,
+    "title": "Untrimmed spaces in class attribute causing syntax error",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2424,
+    "title": "<component v-for>  problem",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2400,
+    "title": "Debounced model is not updated",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2396,
+    "title": "SVG element v-show transition Chrome problem",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2393,
+    "title": "Vue tries to observe enumerable but non-configurable properties",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2312,
+    "title": "Named nested slot not working",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2206,
+    "title": "Custom directive passed through a slot with v-else isn't unbound on vm.$destroy",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2163,
+    "title": "Named slot is getting inserted twice",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 2022,
+    "title": "transition 动画效果对于通过 vm 新增的数据不能正常执行",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1965,
+    "title": "Calling slot not being removed the first time",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1797,
+    "title": "v-model inside v-for doesn't set value when property name is dynamic",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1781,
+    "title": "The 'afterEnter' hook dose not 'wait for the transition to finish'",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1779,
+    "title": "v-ref inside component that appears multiple times",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1683,
+    "title": "Array mutation methods misbehave under certain circumstances",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1662,
+    "title": "Custom directive params binding problem",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1656,
+    "title": "1.0.3 绑定click事件加过滤器后，不能找到绑定的方法！",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1442,
+    "title": "fail to resolve custom directive on component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1440,
+    "title": "v-for not triggering detach on children",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1431,
+    "title": "warns when duplicated props from mixins",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1428,
+    "title": "`<component :is>` fails to resolve components if using a variable passed in via a prop using the expression syntax (`:prop=\"variable\"`) (1.0.0-alpha-8)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1370,
+    "title": "`v-for` on Object not updating correctly when the Object is mutated via `$set`",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1363,
+    "title": "migrate from `v-repeat` to `v-for` while using partial inside the loop",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1291,
+    "title": "Components don't get attached if transcluded with v-if",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1268,
+    "title": "error scope for component's slot when in `v-for`",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1265,
+    "title": "filters changing arrays to objects break v-repeat",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1244,
+    "title": "Leave transition hook is called twice if css:false in in-out mode",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1219,
+    "title": "Scope inside v-repeat in <content> tag is affected by the component's v-repeat",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1120,
+    "title": "多个select component时提示Cannot read property 'childNodes' of undefined",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1119,
+    "title": "Out-in transition doesn't work properly with three transitioning elements",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1065,
+    "title": "Variable in component outer element class deactivate the outside v-class",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1063,
+    "title": "parsePath('a]') will path through in parsers/path.js",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1044,
+    "title": "'leaveCancelled ' not be called properly in v-transition",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1028,
+    "title": "Using v-if/v-show with v-cloak",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1023,
+    "title": "props with default values are not added to component data",
+    "labels": [
+      "bug",
+      "need repro"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1006,
+    "title": "`destroyed` hook not called when unbinding component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1005,
+    "title": "`ready` method is not called on child component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 1004,
+    "title": "Issue with v-component/v-repeat combined",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 946,
+    "title": "CSP version error when minified",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 939,
+    "title": "还是component嵌套的bug，又重现了",
+    "labels": [
+      "bug",
+      "need repro"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 822,
+    "title": "Custom element tag with v-repeat breaking regression in 0.11.9.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 806,
+    "title": "Issue with dynamic component, v-with and assigning to $data",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 805,
+    "title": "vue 0.11.8 子组件中第一个component不会编译bug",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 736,
+    "title": "v-if, v-on directives in a component",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 728,
+    "title": "Strange error, when we watch and work with the list.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 655,
+    "title": "`v-with` fails silently if component has `replace: true` and more than 1 root element",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 642,
+    "title": "number does not work with select",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 569,
+    "title": "v-repeat in v-if seem to work incorrectly",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 561,
+    "title": "Ready hook is not called when used together with v-if",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 558,
+    "title": "textarea placeholder is set into textarea value (IE11)",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 398,
+    "title": "v-repeat and $watch(\"$data\")",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 324,
+    "title": "Weird option is appended",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 313,
+    "title": "v-if behavior differs when given a property key versus an expression",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 288,
+    "title": "`$watch` misbehaving when used with `v-with`",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 276,
+    "title": "v-enter never appended",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 247,
+    "title": "Key filter breaks when VM has components",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 242,
+    "title": "Directive method calls don't support object params",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 238,
+    "title": "$index for primitive values are not tracked properly",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 234,
+    "title": "problem with nested v-repeat directives.",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 232,
+    "title": "Over Rendering with a lot of nested views and compontents",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 213,
+    "title": "problem with v-repeat and remove all",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 80,
+    "title": "IE doesn't allow `setAttribute('style')`",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 76,
+    "title": "bug of function removeClass",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 56,
+    "title": "Async problem when swapping a `v-repeat` Array",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 37,
+    "title": "improve Observer performance",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 36,
+    "title": "should not split directive expression when comma is inside quotes",
+    "labels": [
+      "bug"
+    ],
+    "assignee": null,
+    "state": "closed"
+  },
+  {
+    "number": 25,
+    "title": "dependency tracking for nested values",
+    "labels": [
+      "bug"
+    ],
+    "assignee": "yyx990803",
+    "state": "closed"
+  }
+]
